@@ -32,3 +32,11 @@ In Verilog, calculating the parity bit requires a single unary reduction operato
 // Unary XOR reduction operator calculates parity across all 8 bits
 wire wr_parity = ^wr_data; 
 ```
+
+### Output 
+#### Waveform
+<img width="950" height="287" alt="image" src="https://github.com/user-attachments/assets/b436f7ca-c3aa-402e-8e54-885767f428fb" />
+
+#### Simulation Terminal
+<img width="795" height="415" alt="image" src="https://github.com/user-attachments/assets/6861c072-45ee-4561-bbd2-2b415796f56a" />
+
