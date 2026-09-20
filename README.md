@@ -7,11 +7,11 @@ When you perform an XOR reduction across all bits of a binary vector, it effecti
 
 ---
 
-### Mathematical Formula
+**Mathematical Formula**
 
 For an 8-bit input vector `wr_data = 8'b1010_0001` (which contains three `1`s):
 
-$$\text{wr\_data} = 8\text{'b1010\_0001} \implies \text{Parity Bit} = 1 \oplus 0 \oplus 1 \oplus 0 \oplus 0 \oplus 0 \oplus 0 \oplus 1 = 1$$
+`wr_data = 8'b1010_0001` ➔ `Parity Bit = 1 ⊕ 0 ⊕ 1 ⊕ 0 ⊕ 0 ⊕ 0 ⊕ 0 ⊕ 1 = 1`
 
 ---
 
